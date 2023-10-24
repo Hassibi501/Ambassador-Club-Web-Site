@@ -2,8 +2,18 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
+/* 600px, 601px, 768px, 992px, 1200px */
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
+    /* Adjust styles for smaller screens */
+    .mainData {
+        width: 100%; /* Full width on small screens */
+        margin: 0; /* Remove margin on small screens */
+        padding: 1rem; /* Adjust padding for better spacing */
+    }
+}
+
+@media (max-width: 601px) {
     /* Adjust styles for smaller screens */
     .mainData {
         width: 100%; /* Full width on small screens */
