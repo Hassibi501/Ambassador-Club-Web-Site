@@ -2,21 +2,66 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
-
+.myDiv{
+    border-radius: 15px;
+    border-color: black;
+    border-style: solid; 
+}
+.bold{
+    font-weight: bold;
+}
 .mainData{
     background-color: #ededed;
     width: 80%;
     margin: auto;
     padding: 1.3rem;
-
+    border-radius: 25px;
+    border-color: black;
+    border-style: solid; 
 }
 
+h1{
+    font-size: larger;
+    font-weight: bolder;
+    padding-block: 1em;
+    background-color: rgb(183, 8, 8);
+    margin-left: 4em;
+    margin-right: 4em;
+    border-radius: 15px;
+    border-color: black;
+    border-style: solid; 
+}
+
+
+.clubMeetings{
+    text-align: center;
+    padding-block: 1em;
+    background-color: #800020;
+    color: white;
+    margin-left: 15em;
+    margin-right: 15em;
+    border-radius: 25px;
+    border-color: black;
+    border-style: solid; 
+}
+.clubMeetingsBox{
+    padding-block:  1em;
+    background-color: rgb(183, 8, 8);
+    margin-left: 6.5em;
+    margin-right: 6.5em;
+    line-height: 0.3;  
+    border-radius: 25px;
+    border-color: black;
+    border-style: solid; 
+    margin-top: 2em;
+}
 .subheader{
     padding: 0.5rem;
     font-size: larger;
     color: white;
     font-weight: bolder;
-
+  
+   
 }
 
 h4 {
@@ -24,13 +69,13 @@ h4 {
     font-weight: normal;
     color: white;
     font-weight: bolder;
-
-
+    
+  
 }
 
 body {
     background-color: #999999;
-    color: #999999;
+    color: black;
 }
 
 .header{
@@ -43,5 +88,11 @@ body {
     align-items: center;
     color: white;
     font-weight: bolder;
-
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid; 
+}
+footer{
+    text-align: right;
+    font-weight: bold;
 }
