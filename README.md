@@ -1,1 +1,1 @@
-# Ambassador-Club-Web-Site
+# [ChessClubWebsite](https://ericxu1070.github.io/ChessClubWebsite/)
