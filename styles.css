@@ -4,16 +4,16 @@
 }
 /* 600px, 601px, 768px, 992px, 1200px */
 
-@media (max-width: 600px) {
+
+@media (max-width: 1200px) {
     /* Adjust styles for smaller screens */
     .mainData {
         width: 80%; /* Adjust the width to your preference */
         margin: 0 auto; /* Center the mainData element horizontally */
         padding: 1.3rem; /* Adjust the padding as needed */
-        border-radius: 25px; /* If you have a border-radius, keep it here */
-        border-color: black; /* If you have a border, keep it here */
-        border-style: solid; /* If you have a border, keep it here */
     }
+
+
     .clubMeetings{
         padding: 2rem;
         margin-left: 0 !important;
@@ -71,18 +71,84 @@
     }
     .center{
         width: 80%; /* Adjust the width to make the image larger */
+    }
+}
+    
+@media (max-width: 600px) {
+    /* Adjust styles for smaller screens */
+    .mainData {
+        width: 80%; /* Adjust the width to your preference */
+        margin: 0 auto; /* Center the mainData element horizontally */
+        padding: 1.3rem; /* Adjust the padding as needed */
+     
+    }
+
+
+    .clubMeetings{
+        padding: 2rem;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .clubMeetingsBox{
+        padding: 2rem;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        text-align: center; /* Center the text horizontally */
+
+      
+    }
+    .clubMeetingsBox p {
+        margin: 1rem 0; /* Add vertical spacing between <p> elements */
+        text-align: center; /* Center the text horizontally */
+        max-width: 200%; /* Adjust the maximum width of the text container to use more space */
+        line-height: 1.5; /* Adjust line height for better legibility */
 
 
     }
 
+   
+    h1{
+        margin: 0 !important;;
+        padding-block: 1em;
     }
-  
+
+    
+    .qr-container {
+        align-items: flex-start !important; /* Add !important to force the alignment change */
+    }
+
+    .qr {
+        max-width: 100px !important; /* Add !important to force the max-width change */
+        margin-right: 1rem !important; /* Add !important to force the margin change */
+        margin-left: 0 !important; /* Add !important to force the margin change */
+    }
+    
+
+    .clubInfo {
+        margin-left: 0 !important; /* Add !important to force the margin change */
+    }
+
+    ul {
+        text-align: left !important; /* Add !important to force the text alignment change */
+        padding-left: 0 !important; /* Add !important to force the padding change */
+    }
+
+    li {
+        margin: 5px 0 !important; /* Add !important to force the margin change */
+        padding-left: 0 !important; /* Add !important to force the padding change */
+        max-width: 100% !important; /* Add !important to force the max-width change */
+        text-align: center;
+    }
+    .center{
+        width: 80%; /* Adjust the width to make the image larger */
+    }
+}  
 
 
 
 
 .myDiv{
-    border-radius: 15px;
+    border-radius: 10px;
     border-color: black;
     border-style: solid; 
 }
@@ -90,16 +156,19 @@
     font-weight: bold;
 }
 .mainData{
+    max-width: 1000px;  
+    margin: auto;
     background-color: #ededed;
     width: 80%;
     margin: auto;
     padding: 1.3rem;
-    border-radius: 25px;
+    border-radius: 10px;
     border-color: black;
     border-style: solid; 
 }
 
 h1{
+    
     font-size: larger;
     font-weight: bolder;
     padding-block: 1em;
@@ -119,7 +188,7 @@ h1{
     color: white;
     margin-left: 15em;
     margin-right: 15em;
-    border-radius: 25px;
+    border-radius: 15px;
     border-color: black;
     border-style: solid; 
 }
@@ -129,7 +198,7 @@ h1{
     margin-left: 6.5em;
     margin-right: 6.5em;
     line-height: 0.3;  
-    border-radius: 25px;
+    border-radius: 10px;
     border-color: black;
     border-style: solid; 
     margin-top: 2em;
@@ -159,7 +228,8 @@ body {
 }
 
 .header{
-    
+    max-width: 1000px;  
+    margin: auto;
     padding: 1rem;
     background-color: #800020;
     display: flex;
@@ -168,7 +238,7 @@ body {
     align-items: center;
     color: white;
     font-weight: bolder;
-    border-radius: 20px;
+    border-radius: 10px;
     border-color: black;
     border-style: solid; 
 }
